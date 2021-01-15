@@ -1,0 +1,9 @@
+# Use yarn.lock instead
+package-lock.json
+
+# Dependency directories
+node_modules
+
+# folder log
+logs
+.nyc_output

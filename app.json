@@ -1,0 +1,23 @@
+{
+    "apps": [
+        {
+            "script": "./server.js",
+            "exec_mode": "cluster",
+            "env_development": {
+                "name": "vacc_package_rules_services_dev",
+                "NODE_ENV": "development",
+                "PORT": 8082
+            },
+            "env_iot": {
+                "name": "vacc_package_rules_services_iot",
+                "NODE_ENV": "iot",
+                "PORT": 8082
+            },
+            "env_production": {
+                "name": "vacc_package_rules_services_prod",
+                "NODE_ENV": "production",
+                "PORT": 8082
+            }
+        }
+    ]
+}
