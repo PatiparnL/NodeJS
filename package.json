@@ -31,6 +31,7 @@
     "config": "^3.2.3",
     "express": "^4.16.3",
     "jsonwebtoken": "^8.5.1",
+    "kafka-node": "^5.0.0",
     "localStorage": "^1.0.4",
     "mocha": "^6.2.1",
     "mockgoose": "^8.0.4",

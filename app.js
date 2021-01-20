@@ -20,10 +20,10 @@ app.use(function (req, res, next)
 // define a simple route
 app.get('/', (req, res) =>
 {
-    res.json({ "message": "Welcome to " + process.env.NODE_ENV + " (" + process.env.name + ") application."});
+    res.json({ "message": "Welcome to " + process.env.NODE_ENV + " (" + process.env.NODE_ENV + ") application."});
 });
 
-require('./app/api/v1.0/routes/packageRules.route')(app);
+require('./app/api/v1.0/routes/hello.route')(app);
 
 global.__basedir = __dirname;
 // listen for requests
